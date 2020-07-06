@@ -115,6 +115,12 @@ PAGE: PORTFOLIO
     font-weight: 300;
 }
 
+#gallery p {
+    padding: 0px 10px;
+    font-size: .85em;
+    line-height: 1.4;
+}
+
 
 /*****************
 PAGE: ABOUT
