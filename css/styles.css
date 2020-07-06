@@ -1,0 +1,204 @@
+/*****************
+GENERAL
+*****************/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+    font-weight: 300;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 300;
+    margin: -5px 0px;
+}
+
+h3 {
+    margin: 0px 0px 1em 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+/*****************
+HEADER
+*****************/
+
+header {
+    width: 100%;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+}
+
+#logo {
+    text-align: center;
+}
+
+
+/*****************
+NAVIGATION
+*****************/
+
+nav li {
+    display: inline-block;
+}
+
+nav {
+    text-align: center;
+    padding: 10px 0px;
+    margin: 20px 0 0;
+}
+
+nav a {
+    font-weight: 500;
+    padding: 15px 10px;
+}
+
+nav ul {
+    margin: 0 10px;
+    padding: 0;
+}
+
+/*****************
+FOOTER
+*****************/
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    padding-top: 50px;
+    font-weight: 200;
+    clear: both;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+}
+
+/*****************
+PAGE: PORTFOLIO
+*****************/
+
+#gallery {
+    margin: 0;
+    padding: 0;
+}
+
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+    font-weight: 300;
+}
+
+#gallery p {
+    padding: 0px 10px;
+    font-size: .85em;
+    line-height: 1.4;
+}
+
+
+/*****************
+PAGE: ABOUT
+*****************/
+
+.profile-photo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+}
+
+
+/*****************
+PAGE: CONTACT
+*****************/
+
+.contact-info {
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-info a {
+    display: block;
+    background-repeat: no-repeat;
+    min-height: 20px;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+    background-image: url(../img/phone.png)
+}
+
+.contact-info li.mail a {
+    background-image: url(../img/mail.png)
+}
+
+.contact-info li.twitter a {
+    background-image: url(../img/twitter.png)
+}
+
+
+/*****************
+COLORS
+*****************/
+
+body {
+    background-color: #fff;
+    color: #999;
+}
+
+a {
+    color: #6AB47B;
+}
+
+nav a,
+nav a:visited {
+    color: #fff;
+}
+
+nav a.selected,
+nav a:hover {
+    color: #32673f;
+}
+
+/* Background color on mobile devices*/
+nav {
+    background: #599a68;
+}
+
+header {
+    background: #6ab47b;
+}
+
+header h1,
+header h2 {
+    color: #fff;
+}

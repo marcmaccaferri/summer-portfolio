@@ -3,8 +3,19 @@
 <html>
 
 <head>
+    <!-- Specifiy character set -->
     <meta charset="utf-8">
+    <!-- Viewport meta tag -->
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <!-- Title -->
     <title>Marc | Front End Web Developer</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">
+    <!-- Make all browsers the same with Normalize -->
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+    <!-- Stylesheets -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
 </head>
 
 <body>
@@ -12,7 +23,7 @@
     <header>
         <!-- START LOGO-->
         <!-- Clicking either of these should take you back to the index page-->
-        <a href="index.html">
+        <a href="index.html" id="logo">
             <!-- H1 element for our name-->
             <h1>Marc</h1>
             <!-- H2 element for our title-->
@@ -24,7 +35,7 @@
         <nav>
             <!-- Navbar with three links: Portfolio, About, Contact -->
             <ul>
-                <li><a href="index.html">Portfolio</a></li>
+                <li><a href="index.html" class="selected">Portfolio</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -38,13 +49,40 @@
 
     <!-- For each of the portfolio items we have an image, text underneath it with a light gray background-->
 
+    <div id="wrapper">
+        <ul id="gallery">
+            <li>
+                <img src="img/numbers-01.jpg" alt="Number 1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </li>
+            <li>
+                <img src="img/numbers-02.jpg" alt="Number 2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </li>
+            <li>
+                <img src="img/numbers-06.jpg" alt="Number 6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </li>
+            <li>
+                <img src="img/numbers-09.jpg" alt="Number 9">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </li>
+            <li>
+                <img src="img/numbers-12.jpg" alt="Number 12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </li>
+        </ul>
+    </div>
+
     <!-- END PORTFOLIO CONTENT-->
 
 
     <!-- START FOOTER-->
     <footer>
         <!-- There is a facebook link that opens a new tab-->
+        <a href="http://facebook.com" target="_blank"><img src="img/facebook-wrap.png" class="social-icon"></a>
         <!-- There is a twitter link that opens a new tab-->
+        <a href="http://twitter.com" target="_blank"><img src="img/twitter-wrap.png" class="social-icon"></a>
         <!-- Copyright information-->
         <p>&copy; 2020 Marc</p>
     </footer>

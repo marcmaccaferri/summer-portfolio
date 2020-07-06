@@ -3,8 +3,19 @@
 <html>
 
 <head>
+    <!-- Specifiy character set -->
     <meta charset="utf-8">
+    <!-- Viewport meta tag -->
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <!-- Title -->
     <title>Marc | Front End Web Developer</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">
+    <!-- Make all browsers the same with Normalize -->
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+    <!-- Stylesheets -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
 </head>
 
 <body>
@@ -12,7 +23,7 @@
     <header>
         <!-- START LOGO-->
         <!-- Clicking either of these should take you back to the index page-->
-        <a href="index.html">
+        <a href="index.html" id="logo">
             <!-- H1 element for our name-->
             <h1>Marc</h1>
             <!-- H2 element for our title-->
@@ -25,7 +36,7 @@
             <!-- Navbar with three links: Portfolio, About, Contact -->
             <ul>
                 <li><a href="index.html">Portfolio</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html" class="selected">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -34,12 +45,22 @@
     <!-- END OF THE HEADER -->
 
 
+    <div id="wrapper">
+        <!-- ABOUT IMAGE-->
+        <img src="img/marc.jpeg" alt="Photo of Marc" class="profile-photo">
+        <!-- TITLE -->
+        <h3>About</h3>
+        <!-- ABOUT PARAGRAPHS -->
+        <p>Hello, I am Marc Maccaferri! This is my portfolio where I share all of my favorite work.</p>
+        <p>If you would like to follow me on Twitter, my username is <a href="http://twitter.com" target="_blank">@username.</a></p>
+    </div>
 
-
-    <!-- START FOOTER-->
+    <!-- START FOOTER -->
     <footer>
         <!-- There is a facebook link that opens a new tab-->
+        <a href="http://facebook.com" target="_blank"><img src="img/facebook-wrap.png" class="social-icon"></a>
         <!-- There is a twitter link that opens a new tab-->
+        <a href="http://twitter.com" target="_blank"><img src="img/twitter-wrap.png" class="social-icon"></a>
         <!-- Copyright information-->
         <p>&copy; 2020 Marc</p>
     </footer>
